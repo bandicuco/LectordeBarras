@@ -163,7 +163,6 @@ def IniScan():
             cv2.imshow('Frame', frame)
             if cv2.waitKey(25) & 0xFF == ord('q'):
                 break   
-                INICIO()
         else:
             break
 
@@ -173,7 +172,7 @@ def IniScan():
         lblVideo.configure(image=img)
         lblVideo.image = img
     else:
-        cap.release()
+        captura.release()
 
 def destruirPrin(): 
     ventPrin.destroy()
