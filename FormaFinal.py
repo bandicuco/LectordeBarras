@@ -233,7 +233,7 @@ def INICIO():
     ventPrin.title("Proyecto_Codigo_De_Barras")
     ventPrin.geometry("540x960")
 
-    imagen1=PhotoImage(file='/Images/FONDO_GENERADOR.png')
+    imagen1=PhotoImage(file='Images/FONDO_GENERADOR.png')
     fondo=Label(image=imagen1, text="Inicio")
     fondo.place(x=0,y=0,relheight=1,relwidth=1)
 
